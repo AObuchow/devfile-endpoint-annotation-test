@@ -1,0 +1,1 @@
+# devfile-endpoint-annotation-test
