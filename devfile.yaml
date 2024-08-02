@@ -28,8 +28,6 @@ components:
         - name: https-python
           targetPort: 8080
           protocol: https
-          annotation:
-            my-annotation: test
         - exposure: none
           name: debug
           targetPort: 5858
