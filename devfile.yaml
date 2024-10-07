@@ -31,6 +31,7 @@ components:
           annotation:
             my-annotation: test
             another-annotation: test2
+            haproxy.router.openshift.io/timeout: 30s
         - exposure: none
           name: debug
           targetPort: 5858
