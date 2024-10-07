@@ -37,13 +37,6 @@ components:
       env:
         - name: DEBUG_PORT
           value: '5858'
-  - name: build
-    image:
-      imageName: python-image:latest
-      dockerfile:
-        uri: docker/Dockerfile
-        buildContext: .
-        rootRequired: false
   - name: deploy
     kubernetes:
       uri: kubernetes/deploy.yaml
